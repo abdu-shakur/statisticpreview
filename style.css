@@ -23,6 +23,12 @@ img{
 .flex-content p{
     text-transform: uppercase;
     font-size: 8px;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Lexend Deca';
+}
+h4{
+    font-family: 'Inter';
+    font-weight: 700;
 }
 @media (max-width: 600px) {
     h1, p, h4{
@@ -64,7 +70,7 @@ img{
     .screen2 img{
         display: block;
         height: 100%;
-        width: 70%;
+        width: 80%;
         border-radius: 0 5px 5px 0;
     }
     .screen{
