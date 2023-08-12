@@ -1,0 +1,18 @@
+body{
+    background-color: antiquewhite;
+    align-items: center;
+    justify-items: center;
+}
+@media (max-width: 600px) {
+    h1, p, h4{
+        text-align: center;
+    }
+    .flex{
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    .flex-content{
+        padding: 12px;
+    }
+}
